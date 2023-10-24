@@ -154,6 +154,7 @@ img.g {
   left: 0%;
 
   border-radius: 25%;
+  padding: 1%;
 
   background-image: linear-gradient(to bottom right, #1e3984 , #561093, #545353);
 
@@ -170,6 +171,6 @@ img.g {
 		background-position: 100% 50%;
 	}
 	100% {
-		background-position: 0% 50%;
+		background-position: 100% 50%;
 	}
 }
