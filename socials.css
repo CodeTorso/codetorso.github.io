@@ -59,8 +59,6 @@
   position:absolute;
   
   transition: 500ms;
-
-  cursor:grab
 }
 
 .circle-space img:hover {
@@ -171,6 +169,6 @@ img.g {
 		background-position: 100% 50%;
 	}
 	100% {
-		background-position: 100% 50%;
+		background-position: 0% 50%;
 	}
 }
