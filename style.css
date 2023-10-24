@@ -11,16 +11,46 @@
   gap: 12px;
 }
 
+.web-url-container {
+  display: flex;
+
+  height: 39px;
+
+  overflow: hidden;
+}
+
 .website-url {
   font-size: 2rem;
 }
 
-.profile-img {
-  height: 120px;
-
+.hover-move-up{
+  transition:0.2s;
 }
 
-.showcase {
+.inner h3 {
+  /*position: relative;*/
+  /* transform: translateY(0px); */
+  transition: transform .1s ease-in-out;
+}
+
+.web-url-container:hover .inner h3  {
+  transform: translateY(-38px);
+}
+
+.website-url-styled {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  -webkit-background-clip: text; 
+}
+
+.hover-move-up:hover {
+  position: absolute;
+  top: -35px;
+}
+
+.profile-img {
+  height: 120px;
 
 }
 

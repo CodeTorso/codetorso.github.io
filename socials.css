@@ -4,6 +4,15 @@
   justify-content: space-between;
 }
 
+.back {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back:hover {
+  text-decoration: none;
+}
+
 .head-container {
   height: 40px;
 
@@ -44,8 +53,8 @@
 }
 
 .circle-space img {
-  width: 80px;
-  height:80px;
+  width: 100px;
+  height:100px;
 
   position:absolute;
   
@@ -56,7 +65,7 @@
   transform: translate(-25%, -25%);
   height: 170px;
   width: 170px;
-  padding: 20px;
+  padding: 45px;
 
   z-index: 1;
 }
@@ -67,7 +76,7 @@ img.a {
 
   border-radius: 100%;
 
-  background-image: linear-gradient(-45deg, #a72700, #9d1247, #03698e, #1a967a);
+  background-image: linear-gradient(to bottom left, #a72700, #9d1247, #03698e, #1a967a);
 
   background-size: 400% 400%;
 
@@ -80,7 +89,7 @@ img.b {
 
   border-radius: 15%;
 
-  background-image: linear-gradient(-135deg, rgb(0, 110, 71), rgb(0, 0, 110), rgb(0, 40, 110), rgb(0, 108, 110));
+  background-image: linear-gradient(to bottom left, rgb(0, 110, 71), rgb(0, 40, 110), rgb(0, 108, 110));
 
   background-size: 400% 400%;
 
@@ -92,7 +101,7 @@ img.c {
 
   border-radius: 20%;
 
-  background-image: linear-gradient(45deg, rgb(63, 0, 63), rgb(0, 72, 100), rgb(55, 114, 89), rgb(30, 86, 116));
+  background-image: linear-gradient(to bottom right, rgb(63, 0, 63), rgb(55, 114, 89), rgb(30, 86, 116));
 
   background-size: 400% 400%;
 
@@ -105,7 +114,7 @@ img.d {
   border-radius: 25%;
   padding: 1%;
 
-  background-image: linear-gradient(135deg, rgb(0, 0, 165) , rgb(126, 30, 46), rgb(83, 21, 121), rgb(21, 51, 121));
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 165) , rgb(126, 30, 46), rgb(83, 21, 121));
 
   background-size: 400% 400%;
 
