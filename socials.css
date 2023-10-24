@@ -59,6 +59,8 @@
   position:absolute;
   
   transition: 500ms;
+
+  cursor:grab
 }
 
 .circle-space img:hover {
@@ -71,8 +73,8 @@
 }
 
 img.a {
-  top: 3px;
-  left: 45px;
+  top: 18%;
+  left: 92%;
 
   border-radius: 100%;
 
@@ -84,8 +86,8 @@ img.a {
 }
 
 img.b {
-  top: 33px;
-  left: 27px;
+  top: 62%;
+  left: 32%;
 
   border-radius: 15%;
 
@@ -96,8 +98,8 @@ img.b {
   animation: gradient 15s ease infinite;
 }
 img.c {
-  top: 20px;
-  left: 8px;
+  top: 20%;
+  left: 3%;
 
   border-radius: 20%;
 
@@ -108,13 +110,52 @@ img.c {
   animation: gradient 15s ease infinite;
 }
 img.d {  
-  top: 14px;
-  left: 23px;
+  top: 78%;
+  left: 90%;
 
   border-radius: 25%;
   padding: 1%;
 
   background-image: linear-gradient(to bottom right, rgb(0, 0, 165) , rgb(126, 30, 46), rgb(83, 21, 121));
+
+  background-size: 400% 400%;
+
+  animation: gradient 15s ease infinite;
+}
+
+img.e {  
+  top: 12%;
+  left: 56%;
+
+  border-radius: 50%;
+
+  background-image: linear-gradient(to bottom right, #ffa9e6 , #b75097, #6c9de3);
+
+  background-size: 400% 400%;
+
+  animation: gradient 15s ease infinite;
+}
+
+img.f {  
+  top: 58%;
+  left: 62%;
+
+  border-radius: 25%;
+
+  background-image: linear-gradient(to bottom right, #3263e8 , #963ee2, #999999);
+
+  background-size: 400% 400%;
+
+  animation: gradient 15s ease infinite;
+}
+
+img.g {  
+  top: 80%;
+  left: 0%;
+
+  border-radius: 25%;
+
+  background-image: linear-gradient(to bottom right, #1e3984 , #561093, #545353);
 
   background-size: 400% 400%;
 
