@@ -33,6 +33,10 @@
   border-radius: 25px;
 }
 
+.back-arrow {
+  font-family: JetBrains Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+
 .profile-img {
   height: 100%;
 }
