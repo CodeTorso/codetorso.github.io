@@ -42,12 +42,10 @@
 }
 
 .socials-area {
-  flex-grow: 1;
-  position: relative;
-
-  padding: 10% 10%;
+  padding: 8% 8%;
 
   height: 50vh;
+  max-width: 100%;
   width: 550px;
 
 }
@@ -66,6 +64,10 @@
   position:absolute;
   
   transition: 500ms;
+
+  animation: gradient 15s ease infinite;
+
+  background-size: 400% 400%;
 }
 
 .circle-space img:hover {
@@ -84,10 +86,6 @@ img.a {
   border-radius: 100%;
 
   background-image: linear-gradient(to bottom left, #a72700, #9d1247, #03698e, #1a967a);
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 
 img.b {
@@ -97,10 +95,6 @@ img.b {
   border-radius: 15%;
 
   background-image: linear-gradient(to bottom left, rgb(0, 110, 71), rgb(0, 40, 110), rgb(0, 108, 110));
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 img.c {
   top: 20%;
@@ -109,10 +103,6 @@ img.c {
   border-radius: 20%;
 
   background-image: linear-gradient(to bottom right, rgb(63, 0, 63), rgb(55, 114, 89), rgb(30, 86, 116));
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 img.d {  
   top: 78%;
@@ -122,10 +112,6 @@ img.d {
   padding: 1%;
 
   background-image: linear-gradient(to bottom right, rgb(0, 0, 165) , rgb(126, 30, 46), rgb(83, 21, 121));
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 
 img.e {  
@@ -135,10 +121,6 @@ img.e {
   border-radius: 50%;
 
   background-image: linear-gradient(to bottom right, #ffa9e6 , #b75097, #6c9de3);
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 
 img.f {  
@@ -148,10 +130,6 @@ img.f {
   border-radius: 25%;
 
   background-image: linear-gradient(to bottom right, #3263e8 , #963ee2, #999999);
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 
 img.g {  
@@ -162,10 +140,6 @@ img.g {
   padding: 1%;
 
   background-image: linear-gradient(to bottom right, #1e3984 , #561093, #545353);
-
-  background-size: 400% 400%;
-
-  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
