@@ -29,28 +29,17 @@ body {
 }
 
 .content-container {
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3px);
 
+  min-width: 425px;
   width: 50%;
-  max-width: 1200px;
-
-  min-height: 320px;
-  height: 70%;
-  max-height: 900px;
+  max-width: 1400px;
 
 
-  padding: 2% 3.5%;
+  padding: 3.5%;
 
-  border: 0.1px solid #353f4f;
-  border-radius: 10px;
-
-  box-shadow: #242424 0px 2px 5px -1px, #242424 0px 1px 3px -1px;
-
-  background-image: linear-gradient(to bottom left, rgb(0, 0, 94) , 1px, transparent);
-}
-
-.full-height {
-  height: 100%;
+  border: 1px solid #000735;
+  border-radius: 50px;
 }
 
 a {

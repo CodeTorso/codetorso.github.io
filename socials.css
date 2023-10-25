@@ -1,7 +1,10 @@
-.full-height {
+.content-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: rgb(6, 117, 142) 0px 2px 5px -1px, rgb(3, 150, 195) 0px 1px 3px -1px;
+  background-image: linear-gradient(to bottom left, rgb(5, 83, 125) , 15px, transparent);
 }
 
 .back {
@@ -13,16 +16,12 @@
   text-decoration: none;
 }
 
-.head-container {
-  height: 40px;
-
-  display: flex;
-  justify-content: center;
-}
-
 .head-content {
   display: flex;
+  justify-content: center;
   align-items: center;
+
+  height: 40px;
 
   gap: 2%;
 
@@ -31,7 +30,7 @@
   font-size: 20px;
 
   border: 1px solid #ffffff;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .profile-img {
@@ -43,6 +42,8 @@
   position: relative;
 
   padding: 10% 10%;
+  width: 550px;
+
 }
 
 .circle-space {
